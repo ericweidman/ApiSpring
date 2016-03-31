@@ -13,6 +13,9 @@ import java.util.HashMap;
 @RestController
 public class Controller {
 
+    //Robust example here.
+    //https://github.com/Book-It/BookIt/blob/master/src/main/java/com/theironyard/controllers/BookItController.java
+
     static final String SAMPLE_URL = "http://gturnquist-quoters.cfapps.io/api/random";
 
     @RequestMapping(path = "/quote", method = RequestMethod.GET)
